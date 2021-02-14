@@ -14,3 +14,7 @@ services:
       - 42773:52773
       - 41773:51773
       - 55555:55555
+volumes:
+      - /efs/ICS/iris.key:/usr/irissys/mgr/iris.key
+      - ./:/irisdev/app
+      - /efs/ICS:/ICS
