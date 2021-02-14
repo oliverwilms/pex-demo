@@ -6,9 +6,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-#    depends_on:
-#      - 'jgw'
-#      - 'netgw'
     ports:
       - 9980:9980
       - 42773:52773
